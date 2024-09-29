@@ -124,6 +124,6 @@ app.put('/cancelBooking', async (req, res) => {
 
 
 
-app.listen(4001, () => {
-    console.log("server started at 4001");
+app.listen(10000, () => {
+    console.log("server started at 10000");
 });

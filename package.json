@@ -4,8 +4,10 @@
   "description": "express server for api and mongo db connection",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "author": "guvi",
   "license": "ISC",
@@ -16,4 +18,5 @@
     "mongoose": "^8.5.1",
     "nodemon": "^3.1.7"
   }
+
 }
